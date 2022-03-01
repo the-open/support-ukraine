@@ -10,6 +10,7 @@ import Layout from "Layouts/layout"
 import SEO from "Components/seo"
 import PostGrid from "Components/postGrid"
 import CategoryFilter from "Components/catetgoryFilter"
+import IndexText from "Components/indexText"
 
 const Home = ({
   pageContext,
@@ -29,7 +30,7 @@ const Home = ({
     filteredPostData.forEach(({ node }) => {
       const { id } = node
       const { slug } = node?.fields!
-      const { title, desc, date, category, thumbnail, alt } = node?.frontmatter!
+      const { title, desc, date, category, thumbnail, alt, link } = node?.frontmatter!
       const { childImageSharp } = thumbnail!
 
       setPosts(prevPost => [
@@ -43,6 +44,7 @@ const Home = ({
           category,
           thumbnail: childImageSharp?.id,
           alt,
+          link,
         },
       ])
     })
@@ -56,8 +58,7 @@ const Home = ({
       <SEO title="Home" />
       <Main>
         <Content>
-          <CategoryFilter categoryList={data.allMarkdownRemark.group} />
-          <PostTitle>{postTitle}</PostTitle>
+          <IndexText/>
           <PostGrid posts={posts} />
         </Content>
       </Main>
@@ -86,7 +87,7 @@ const Content = styled.div`
 `
 
 const PostTitle = styled.h2`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: var(--font-weight-extra-bold);
   margin-bottom: var(--sizing-md);
   line-height: 1.21875;
@@ -123,6 +124,7 @@ export const query = graphql`
               base
             }
             alt
+            link
           }
           fields {
             slug

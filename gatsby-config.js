@@ -20,8 +20,8 @@ const siteMetadata = {
       name: "About",
     },
     {
-      link: meta.links.github,
-      name: "Github",
+      link: "https://the-open.net",
+      name: "OPEN",
     },
   ],
 }
@@ -152,7 +152,7 @@ const searchPlugins = [
                   node {
                     excerpt
                     html
-                    fields { slug }
+                    fields { slug, link }
                     frontmatter {
                       title
                       date

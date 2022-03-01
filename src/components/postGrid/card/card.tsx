@@ -8,7 +8,7 @@ import CenteredImg from "./centeredImg"
 
 type CardProps = Pick<
   Post,
-  "thumbnail" | "alt" | "category" | "title" | "desc" | "date"
+  "thumbnail" | "alt" | "category" | "title" | "desc" | "date" | "link"
 >
 
 const Card: React.FC<CardProps> = ({
@@ -18,6 +18,7 @@ const Card: React.FC<CardProps> = ({
   title,
   desc,
   date,
+  link,
 }) => {
   return (
     <Wrapper>
@@ -28,7 +29,6 @@ const Card: React.FC<CardProps> = ({
           <Title>{title}</Title>
           <Desc>{desc}</Desc>
         </div>
-        <DateTime dateTime={date}>{date}</DateTime>
       </Text>
     </Wrapper>
   )

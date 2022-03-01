@@ -15,6 +15,7 @@ import useMenu from "./useMenu"
 import LinkList from "./linkList"
 import ThemeToggleButton from "./themeToggleButton"
 import MenuIcon from "./menuIcon"
+import Img from "/src/components/img"
 
 interface NavBarProps {
   title?: string | null
@@ -49,7 +50,6 @@ const NavBar: React.FC<NavBarProps> = ({ title, themeToggler }) => {
             <LinkUl ref={listRef} toggle={toggle}>
               <LinkList links={menuLinks} setToggle={setToggle} />
               <li>
-                <ThemeToggleButton themeToggler={themeToggler} />
               </li>
             </LinkUl>
           </LinkContent>

@@ -1,0 +1,1 @@
+### In the culmination of the ongoing 8-years-long war between Russia and Ukraine, Russia has declared that it recognizes the "people's republics" in Donbas as "independent". This move is meant as the setup to jeopardize years of diplomatic negotiations around the conflict and disrupt peace in the region.

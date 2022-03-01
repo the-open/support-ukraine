@@ -25,7 +25,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ categoryList }) => {
 
   return (
     <Nav aria-label="Category Filter">
-      <CategoryTitle>Category</CategoryTitle>
+      <CategoryTitle>Ways to support</CategoryTitle>
       <CategoryButton getProps={isActive} to="/">
         {ALL_CATEGORY_NAME}
       </CategoryButton>

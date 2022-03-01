@@ -31,11 +31,10 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
             <InnerWrapper>
               <div>
                 <header>
+                  <Title>{title}</Title>
                   <Info>
                     <PostCategory>{category}</PostCategory>
-                    <Time dateTime={date}>{date}</Time>
                   </Info>
-                  <Title>{title}</Title>
                   <Desc>{desc}</Desc>
                 </header>
                 <Divider />
@@ -47,9 +46,6 @@ const BlogPost: React.FC<BlogPostProps> = ({ data }) => {
             </InnerWrapper>
           </OuterWrapper>
         </article>
-        <CommentWrap>
-          <Comment />
-        </CommentWrap>
       </main>
     </Layout>
   )
@@ -87,6 +83,7 @@ const CommentWrap = styled.section`
 const PostCategory = styled(Category)`
   font-size: 0.875rem;
   font-weight: var(--font-weight-semi-bold);
+  margin-top: var(--sizing-xs);
 `
 
 const Info = styled.div`
@@ -146,6 +143,7 @@ export const query = graphql`query ($slug: String!) {
       }
       date(formatString: "YYYY-MM-DD")
       category
+      link
     }
   }
 }

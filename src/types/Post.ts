@@ -8,4 +8,5 @@ export default interface Post
   id: string
   slug: MarkdownRemarkFields["slug"]
   thumbnail?: string
+  link: string
 }
