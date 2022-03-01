@@ -192,6 +192,7 @@ const pwaPlugins = [
 ]
 
 module.exports = {
+  pathPrefix: '/support-ukraine',
   siteMetadata,
   plugins: [
     ...corePlugins,
