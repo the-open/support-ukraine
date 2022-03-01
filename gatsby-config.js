@@ -152,10 +152,11 @@ const searchPlugins = [
                   node {
                     excerpt
                     html
-                    fields { slug, link }
+                    fields { slug }
                     frontmatter {
                       title
                       date
+                      link
                     }
                   }
                 }
