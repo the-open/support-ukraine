@@ -59,6 +59,7 @@ const Home = ({
       <Main>
         <Content>
           <IndexText/>
+          <PostTitle>Aid Organisations</PostTitle>
           <PostGrid posts={posts} />
         </Content>
       </Main>

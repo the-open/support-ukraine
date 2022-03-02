@@ -1,14 +1,12 @@
 ---
-title: "Hungarian Baptist Aid"
-category: "Journalism"
+title: "Polish Medical Misson"
+category: "Medical Aid"
 date: "2019-12-01 12:00:00 +09:00"
-desc: "Something About this organisation etc."
+desc: "Medical support and purchasing essential medical supplies."
 thumbnail: "./images/org5/logo5.png"
 alt: "!"
-link: "https://www.baptistasegely.hu/ukrajna"
+link: "https://pmm.org.pl/en/donate"
 ---
 
-## Something about this org
-What does it do?
-
-🍎
+## Polish Medical Misson
+The funds raised will go towards providing prompt medical support and purchasing essential medical supplies and donated to a local charity.

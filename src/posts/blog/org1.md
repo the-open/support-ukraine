@@ -1,14 +1,12 @@
 ---
 title: "Migration Aid"
-category: "Refugees"
+category: "Refugee Aid"
 date: "2020-03-01 12:00:00 +09:00"
-desc: "Something About this organisation etc."
+desc: "Direct aid and coordination on the Hungarian-Ukraine border."
 thumbnail: "./images/org1/logo1.png"
 alt: "!"
 link: "https://migrationaid.org/adomanyozas/"
 ---
 
-## Something about this org
-What does it do?
-
-🍎
+## Migration Aid
+Direct aid and coordination on the Hungarian-Ukraine border.

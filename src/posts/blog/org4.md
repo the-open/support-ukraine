@@ -1,14 +1,12 @@
 ---
 title: "Hungarian Charity Service of the Order of Malta"
-category: "Journalism"
+category: "Refugee Aid"
 date: "2019-12-01 12:00:00 +09:00"
-desc: "Something About this organisation etc."
+desc: "Support for refugees arriving in Transcarpathia, as well as preparing in the Eastern Hungarian region."
 thumbnail: "./images/org4/logo4.jpeg"
 alt: "!"
 link: "https://adomanyozz.hu/program/ukrajna"
 ---
 
-## Something about this org
-What does it do?
-
-🍎
+## Hungarian Charity Service of the Order of Malta
+Support for refugees arriving in Transcarpathia, as well as preparing in the Eastern Hungarian region to assist and, if necessary, accommodate people arriving in Hungary following the attack on Ukraine.

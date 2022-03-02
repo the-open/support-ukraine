@@ -22,7 +22,7 @@ const metaConfig = {
   author: "OPEN",
   siteUrl: "https://gatsby-starter-apple.netlify.app",
   lang: "en",
-  utterances: "sungik-choi/gatsby-starter-apple-comment",
+  utterances: "the-open/support-ukraine",
   links: {
     github: "https://github.com/sungik-choi/gatsby-starter-apple",
   },
