@@ -14,7 +14,7 @@
     "lint": "eslint '**/*.{ts,tsx}'",
     "semantic-release": "semantic-release",
     "generate": "graphql-codegen --config codegen.yml",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"    
+    "deploy": "gatsby build && gh-pages -d public"    
   },
   "dependencies": {
     "dark-theme-github": "github:remorses/dark-github-theme",
