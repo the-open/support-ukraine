@@ -6,6 +6,7 @@ desc: "Housing, psychology, language, and legal assistance."
 thumbnail: "./images/org2/logo2.png"
 alt: "!"
 link: "https://crm.ocalenie.org.pl/civicrm/contribute/transact?reset=1&id=3&lang=en"
+orgType: "charity"
 ---
 
 ## Hungarian Reformed Charity Service

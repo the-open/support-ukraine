@@ -6,6 +6,7 @@ desc: "Medical support and purchasing essential medical supplies."
 thumbnail: "./images/org5/logo5.png"
 alt: "!"
 link: "https://pmm.org.pl/en/donate"
+orgType: "charity"
 ---
 
 ## Polish Medical Misson

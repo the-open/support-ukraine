@@ -11,6 +11,7 @@ import SEO from "Components/seo"
 import PostGrid from "Components/postGrid"
 import CategoryFilter from "Components/catetgoryFilter"
 import IndexText from "Components/indexText"
+import OrgList from "Components/orgList"
 
 const Home = ({
   pageContext,
@@ -61,6 +62,7 @@ const Home = ({
           <IndexText/>
           <PostTitle>Aid Organisations</PostTitle>
           <PostGrid posts={posts} />
+          <OrgList/>
         </Content>
       </Main>
     </Layout>

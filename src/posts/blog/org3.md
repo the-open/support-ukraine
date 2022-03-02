@@ -6,6 +6,7 @@ desc: "Health services, food, access to clean water, immunisation, education, an
 thumbnail: "./images/org3/logo3.png"
 alt: "!"
 link: "https://unicef.hu/veszhelyzet-ukrajnaban"
+orgType: "charity"
 ---
 
 ## UNICEF

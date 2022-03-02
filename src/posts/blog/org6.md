@@ -6,6 +6,7 @@ desc: "Security plans, identification of shelters, first aid, psychological assi
 thumbnail: "./images/org6/logo6.png"
 alt: "!"
 link: "https://voroskereszt.hu/hirek/a-magyar-voroskereszt-orszagos-adomanygyujtest-hirdet-a-humanitarius-valsag-erintettjeinek-megsegitesere/"
+orgType: "charity"
 ---
 
 ## Something about this org

@@ -6,6 +6,7 @@ desc: "Direct aid and coordination on the Hungarian-Ukraine border."
 thumbnail: "./images/org1/logo1.png"
 alt: "!"
 link: "https://migrationaid.org/adomanyozas/"
+orgType: "charity"
 ---
 
 ## Migration Aid

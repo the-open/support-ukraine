@@ -6,6 +6,7 @@ desc: "Food, blankets, housing, beds, clothing to those crossing the Hungarian -
 thumbnail: "./images/org2/logo2.png"
 alt: "!"
 link: "https://adomany.jobbadni.hu/kampanyok/38"
+orgType: "charity"
 ---
 
 ## Hungarian Reformed Charity Service

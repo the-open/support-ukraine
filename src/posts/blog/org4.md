@@ -6,6 +6,7 @@ desc: "Support for refugees arriving in Transcarpathia, as well as preparing in 
 thumbnail: "./images/org4/logo4.jpeg"
 alt: "!"
 link: "https://adomanyozz.hu/program/ukrajna"
+orgType: "charity"
 ---
 
 ## Hungarian Charity Service of the Order of Malta

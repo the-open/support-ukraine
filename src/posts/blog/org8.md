@@ -6,6 +6,7 @@ desc: "Humanitarian aid, evacuation of the population and psychological help for
 thumbnail: "./images/org2/logo2.png"
 alt: "!"
 link: "https://pcpm.org.pl/ukraina"
+orgType: "charity"
 ---
 
 ## Hungarian Reformed Charity Service
