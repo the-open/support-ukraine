@@ -1,6 +1,7 @@
 import React, { useRef, useContext } from "react"
 import styled, { ThemeContext } from "styled-components"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import type { UseThemeReturnType } from "Hooks/useTheme"
 import useSiteMetadata from "Hooks/useSiteMetadata"
@@ -41,7 +42,9 @@ const NavBar: React.FC<NavBarProps> = ({ title, themeToggler }) => {
       <NavBackground toggle={toggle} />
       <Content>
         <Title onClick={() => setToggle(false)}>
-          <Link to="/">{title}</Link>
+          <Link to="/">
+            {title}
+          </Link>
         </Title>
         <LinkWrap>
           <Curtain ref={curtainRef} toggle={toggle} />

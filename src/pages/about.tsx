@@ -42,6 +42,7 @@ const Container = styled(Markdown).attrs({
   margin-top: 80px;
   margin-bottom: 6rem;
 
+
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     margin-top: var(--sizing-xl);
     width: 87.5%;
@@ -63,6 +64,10 @@ const Container = styled(Markdown).attrs({
     @media (max-width: ${({ theme }) => theme.device.sm}) {
       font-size: 1.25rem;
     }
+  }
+
+  p {
+    color: black;
   }
 `
 

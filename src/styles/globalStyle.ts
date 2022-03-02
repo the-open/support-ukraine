@@ -57,15 +57,19 @@ const GlobalStyle = createGlobalStyle`
 
     --color-outline: rgba(0,125,250,0.6);
 
-    body.light {
+    h1, h2, h3, a {
       --color-text: #1d1d1d;
+    }
+
+    body.light {
+      --color-text: #FAF9F6;
       --color-text-2: #1d1d1d;
       --color-text-3: #696969;
       --color-white: #ffffff;
       --color-nav-bar: rgba(255, 255, 255, 0.7);
       --color-nav-border: rgba(200, 200, 200, 0.7);
       --color-category-button: #f2f2f2;
-      --color-background: #f2f2f2;
+      --color-background: #2088C9;
       --color-post-background: #ffffff;
       --color-card: #ffffff;
       --color-code: #f2f2f2;
