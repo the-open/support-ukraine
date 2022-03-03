@@ -117,6 +117,7 @@ const PostTitle = styled.h2`
   font-weight: var(--font-weight-extra-bold);
   margin-bottom: var(--sizing-md);
   line-height: 1.21875;
+  color: #FED001;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     font-size: 1.75rem;
@@ -163,10 +164,12 @@ export const query = graphql`
 
 const Title = styled.h3`
   margin-top: var(--sizing-xs);
+  margin-bottom: var(--sizing-lg);
   font-size: var(--text-lg);
   font-weight: var(--font-weight-bold);
   line-height: 1.3;
   text-align: center;
+  font-size: 30px;
 
   @media (max-width: ${({ theme }) => theme.device.md}) {
     font-size: 1.3125rem;

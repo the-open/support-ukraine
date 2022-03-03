@@ -117,6 +117,7 @@ const SupportTitle = styled.h2`
   font-weight: var(--font-weight-extra-bold);
   margin-bottom: var(--sizing-lg);
   line-height: 1.21875;
+  color: #FED001;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     font-size: 1.75rem;
