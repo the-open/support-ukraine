@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 
 export default () => (
-  <div>
+  <Container>
     <SupportTitle>Support In Solidarity</SupportTitle>
     <Grid role="list">
       <List role="listitem">
@@ -26,6 +26,9 @@ export default () => (
         <StaticImage src="../images/AUFSTEHN.png" />
       </List>
       <List role="listitem">
+        <StaticImage src="../images/DECLIC.png" />
+      </List>
+      <List role="listitem">
         <StaticImage src="../images/CAMPACT.png" />
       </List>
       <List role="listitem">
@@ -35,16 +38,13 @@ export default () => (
         <StaticImage src="../images/DGZ.png" />
       </List>
       <List role="listitem">
-        <StaticImage src="../images/DECLIC.png" />
-      </List>
-      <List role="listitem">
         <StaticImage src="../images/GU.png" />
       </List>
       <List role="listitem">
-        <StaticImage src="../images/JHATKAA.png" />
+        <StaticImage src="../images/KP.png" />
       </List>
       <List role="listitem">
-        <StaticImage src="../images/KP.png" />
+        <StaticImage src="../images/JHATKAA.png" />
       </List>
       <List role="listitem">
         <StaticImage src="../images/LM.png" />
@@ -62,8 +62,12 @@ export default () => (
         <StaticImage src="../images/ZAZIM.png" />
       </List>
     </Grid>
-  </div>
+  </Container>
 )
+
+const Container = styled.ul`
+  margin: 2rem 0;
+`
 
 const Grid = styled.ul`
   display: grid;

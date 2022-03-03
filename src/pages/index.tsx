@@ -79,6 +79,9 @@ const Home = ({
             </List>
           </Grid>
           <IndexText/>
+          <HashtagContainer>
+            <StaticImage src="../images/hashtag.png" />
+          </HashtagContainer>
           <PostTitle>Aid Organisations</PostTitle>
           <PostGrid posts={posts} />
           <OrgList/>
@@ -101,6 +104,7 @@ const Content = styled.div`
   padding-top: var(--sizing-lg);
   padding-bottom: var(--sizing-lg);
   margin: 0 auto;
+  font-weight: 600;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     padding-top: var(--grid-gap-lg);
@@ -227,6 +231,12 @@ export const ThumbnailWrapper = styled.div`
     background-color: var(--color-dimmed);
     transition: 0.3s ease;
   }
+`
+
+export const HashtagContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
 `
 
 export default Home

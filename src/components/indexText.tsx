@@ -8,7 +8,7 @@ import SEO from "Components/seo"
 import Markdown from "Styles/markdown"
 import { rhythm } from "Styles/typography"
 
-const About = () => {
+const IndexText = () => {
   const data = useStaticQuery<Query>(graphql`
     query {
       allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/index/" } }) {
@@ -35,7 +35,8 @@ const Container = styled(Markdown).attrs({
   as: "main",
 })`
   margin-top: 20px;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
+  font-weight: 600;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     margin-top: var(--sizing-xl);
@@ -60,4 +61,4 @@ const Container = styled(Markdown).attrs({
   }
 `
 
-export default About
+export default IndexText

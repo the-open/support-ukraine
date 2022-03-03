@@ -22,7 +22,7 @@ const Markdown = styled.article<{ rhythm: typeof typography["rhythm"] }>`
 
   a,
   p {
-    font-weight: var(--font-weight-regular);
+    font-weight: 600;
   }
 
   a {

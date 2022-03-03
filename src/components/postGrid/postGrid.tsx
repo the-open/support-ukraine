@@ -53,7 +53,7 @@ const Grid = styled.ul`
   list-style: none;
 
   & > li {
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {

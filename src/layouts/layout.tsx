@@ -8,13 +8,14 @@ import NavBar from "Components/navBar/navBar"
 import styledTheme from "Styles/styledTheme"
 import GlobalStyle from "Styles/globalStyle"
 import packageJSON from "../../package.json"
+import { StaticImage } from "gatsby-plugin-image"
 
 const { name, homepage } = packageJSON
 
 const Layout: React.FC = ({ children }) => {
   const { theme, themeToggler } = useTheme()
   const { title, author } = useSiteMetadata()
-  const copyrightStr = `Built in solidarity by `
+  const copyrightStr = `Built by `
 
   return (
     <ThemeProvider theme={styledTheme}>
@@ -26,9 +27,8 @@ const Layout: React.FC = ({ children }) => {
         </Container>
         <Footer role="contentinfo">
           <Copyright aria-label="Copyright">
-            {copyrightStr}
             <RepoLink href={homepage} target="__blank">
-              {author}
+              <StaticImage src="../images/OPEN.png" width={100} />
             </RepoLink>
           </Copyright>
         </Footer>
