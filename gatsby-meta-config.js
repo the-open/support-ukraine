@@ -20,7 +20,7 @@ const metaConfig = {
   title: "Support Ukraine",
   description: `Support Ukraine`,
   author: "OPEN",
-  siteUrl: "https://gatsby-starter-apple.netlify.app",
+  siteUrl: "https://supportukraine.the-open.net",
   lang: "en",
   utterances: "the-open/support-ukraine",
   links: {

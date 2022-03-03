@@ -30,6 +30,7 @@ const MenuIconBreadBottom = styled.div`
 const MenuIconButton = styled.button<Pick<UseMenuReturnType, "toggle">>`
   z-index: 9999;
   display: none;
+  color-text: black;
 
   @media (max-width: ${({ theme }) => theme.device.sm}) {
     position: relative;
@@ -55,7 +56,7 @@ const MenuIconButton = styled.button<Pick<UseMenuReturnType, "toggle">>`
     & > div > div {
       width: 100%;
       height: 100%;
-      background-color: var(--color-text);
+      background-color: #1d1d1d;
       transition: transform
         ${({ toggle }) => (toggle === true ? "0.2s ease 0.1s" : "0.1s ease")};
     }
