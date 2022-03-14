@@ -70,7 +70,7 @@ const Home = ({
             </List>
             <List role="listitem">
               <TextContent>
-                The cost of war is always the highest for everyday people. The true scale of the humanitarian effort needed - both for the refugees seeking safety in Romania, Poland, and Hungary and for the people still in Ukraine - will be huge.
+                The cost of war is always the highest for everyday people. The true scale of the humanitarian effort needed - both for the refugees seeking safety in Poland, and Hungary and for the people still in Ukraine - will be huge.
                 <br/><br/>
                 People need food, warmth, water and safe places to stay and probably for months. They might also need legal support or health care.
                 <br/><br/>
@@ -84,7 +84,6 @@ const Home = ({
           </HashtagContainer>
           <PostTitle>Aid Organisations</PostTitle>
           <PostGrid posts={posts} />
-          <OrgList/>
         </Content>
       </Main>
     </Layout>
